@@ -14,11 +14,11 @@
     <link rel="stylesheet" href="js/meujava.js">
 
 
-    <title>Currículo Pedro Costa</title>
+    <title>MyBooks2022</title>
     <link rel="icon" type="image/x-icon" href="img/logo/favicon.png">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-ligth bg-warning">
+    <nav class="navbar navbar-expand-lg navbar-ligth bg-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html"><img src="img/logo/logoempng.png" alt=""></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,13 +27,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">início</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="index.html#sobre">Sobre</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="index.html#livros">Livros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html#lista">Lista amazon</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="index.html#contato">contato</a>
@@ -63,7 +63,7 @@
             <div class="estilosobre">
               <p>Oi, tudo bem?</p>
               <p>Eu sou o Pedro, e estou em uma competição literária este ano.</p>
-              <p>Aqui, você tem acesso aos livros que eu já li e meus comentários sobre eles.</p>
+              <p>Aqui, você tem acesso aos livros que eu já li, minhas notas sobre eles, suas sinopses e mais abaixo, um link com minha lista de desejos na Amazon.</p>
               <p>Seja bem vindo!</p>
             </div>
           </div>
@@ -90,8 +90,36 @@
                 <h5 class="card-title">A menina que roubava livros</h5>
                 <p class="card-text">Autor: Markus Zusak<br>
                   Nº de páginas: 584<br>
-                  Editora: Intríseca</p>
-                <a href="#" class="btn btn-primary">Ver mais...</a>
+                  Editora: Intríseca <br>
+                  Minha nota: 10/10 </p>
+                <!-- Button trigger modal -->
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    Ver mais...
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="staticBackdropLabel">Sinopse</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          A trajetória de Liesel Meminger é contada por uma narradora mórbida, surpreendentemente simpática. Ao perceber que a pequena ladra de livros lhe escapa, a Morte afeiçoa-se à menina e rastreia suas pegadas de 1939 a 1943. Traços de uma sobrevivente: a mãe comunista, perseguida pelo nazismo, envia Liesel e o irmão para o subúrbio pobre de uma cidade alemã, onde um casal se dispõe a adotá-los por dinheiro. O garoto morre no trajeto e é enterrado por um coveiro que deixa cair um livro na neve. É o primeiro de uma série que a menina vai surrupiar ao longo dos anos. O único vínculo com a família é esta obra, que ela ainda não sabe ler.
+
+                          Assombrada por pesadelos, ela compensa o medo e a solidão das noites com a conivência do pai adotivo, um pintor de parede bonachão que lhe dá lições de leitura. Alfabetizada sob vistas grossas da madrasta, Liesel canaliza urgências para a literatura. Em tempos de livros incendiados, ela os furta, ou os lê na biblioteca do prefeito da cidade.
+                          
+                          A vida ao redor é a pseudo-realidade criada em torno do culto a Hitler na Segunda Guerra. Ela assiste à eufórica celebração do aniversário do Führer pela vizinhança. Teme a dona da loja da esquina, colaboradora do Terceiro Reich. Faz amizade com um garoto obrigado a integrar a Juventude Hitlerista. E ajuda o pai a esconder no porão um judeu que escreve livros artesanais para contar a sua parte naquela História. A Morte, perplexa diante da violência humana, dá um tom leve e divertido à narrativa deste duro confronto entre a infância perdida e a crueldade do mundo adulto, um sucesso absoluto - e raro - de crítica e público.
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  
               </div>
             </div>
           </div>
@@ -100,10 +128,32 @@
               <img src="img/livros/oguiadomochileirodasgalaxias.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">O guia do mochileiro das galáxias</h5>
-                <p class="card-text">Autor: Markus Zusak<br>
-                  Nº de páginas: 584<br>
-                  Editora: Intríseca</p>
-                <a href="#" class="btn btn-primary">Ver mais...</a>
+                <p class="card-text">Autor: Douglas Adams<br>
+                  Nº de páginas: 192<br>
+                  Editora: Arqueiro<br>
+                  Minha nota: 10/10 </p>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                  Ver mais...
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">Sinopse</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Considerado um dos maiores clássicos da literatura de ficção científica, O guia do mochileiro das galáxias vem encantando gerações de leitores ao redor do mundo com seu humor afiado. Este é o primeiro título da famosa série escrita por Douglas Adams, que conta as aventuras espaciais do inglês Arthur Dent e de seu amigo Ford Prefect. A dupla escapa da destruição da Terra pegando carona numa nave alienígena, graças aos conhecimentos de Prefect, um E.T. que vivia disfarçado de ator desempregado enquanto fazia pesquisa de campo para a nova edição do Guia do mochileiro das galáxias, o melhor guia de viagens interplanetário. Mestre da sátira, Douglas Adams cria personagens inesquecíveis e situações mirabolantes para debochar da burocracia, dos políticos, da "alta cultura" e de diversas instituições atuais. Seu livro, que trata em última instância da busca do sentido da vida, não só diverte como também faz pensar. **** "O guia do mochileiro das galáxias começou sua história como uma série de rádio e, depois, uma compilação em fita cassete. Transformado em livro, tornou-se um best-seller mundial e foi parar, de forma curiosa, na televisão britânica. Com uma galeria de personagens bizarros e tantas viradas abruptas na trama que você se sentirá em uma montanha-russa, O guia do mochileiro das galáxias é, sem dúvida, uma das mais criativas e cômicas histórias de aventura jamais escritas. Arthur Dent, um inglês azarado, escapa de um evento dramático - a destruição da Terra -, graças a um amigo de Betelgeuse que, enquanto estava ilhado em nosso planeta, havia se disfarçado de ator desempregado. Arthur se vê arrastado, apesar de seus protestos histéricos, para as situações mais alucinadas nos pontos mais distantes do tempo e do espaço. O que realmente sustenta este livro hilariante, através de sua viagem freneticamente bizarra pela galáxia rumo ao legendário planeta de Magrathea - e além -, é a pergunta profunda sobre o porquê. De onde viemos? Por que estamos aqui? Para onde vamos? Onde vamos almoçar hoje? Além disso, enquanto tenta se entender com as formas de vida mais estranhas, nosso anti-herói descobre a verdadeira história da Terra e a resposta final à grande pergunta da Vida, do Universo e Tudo Mais. No geral, um resultado bastante satisfatório, devo dizer. Mas o que torna a escrita de Douglas Adams tão hipnótica? Além do fato de ser considerado por muitos como "um dos autores mais perspicazes de nossos tempos", ele também se envolveu profundamente com a literatura e a ciência. A leitura, o humor, os animais selvagens e a tecnologia eram suas grandes paixões, e ele soube reunir esses interesses aparentemente disparatados com toda a concisão e energia. "A genialidade de Douglas Adams e a forma como ele usa as situações mais absurdas para nos fazer rir certamente encontrarão ecos no amor pela vida e no bom humor que meus amigos brasileiros têm de sobra." - Bradley Trevor Greive
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -112,10 +162,40 @@
               <img src="img/livros/strangerthings.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Stranger Things: Cidade nas trevas</h5>
-                <p class="card-text">Autor: Markus Zusak<br>
-                  Nº de páginas: 584<br>
-                  Editora: Intríseca</p>
-                <a href="#" class="btn btn-primary">Ver mais...</a>
+                <p class="card-text">Autor: Adam Christopher<br>
+                  Nº de páginas: 384<br>
+                  Editora: Intríseca<br>
+                  Minha nota: 10/10 </p>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                  Ver mais...
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">Sinopse</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Em nova história oficial do universo de Stranger Things, Eleven descobre segredos perturbadores do passado de Jim Hopper
+
+                        A terceira temporada de Stranger Things causou grande comoção, e o último episódio deixou os fãs perplexos e ansiosos por respostas. As pistas estão lançadas em Cidade nas trevas, segundo livro oficial da série, que explora o passado de um dos personagens mais queridos do público: o chefe de polícia Jim Hopper.
+                        
+                        Em Hawkins, durante o Natal de 1984, ele mal consegue conter a alegria. É sua primeira comemoração familiar com Eleven, sua chance de aproveitar momentos de tranquilidade com a filha adotiva. Mas a menina tem outros planos. Contra a vontade de Hopper, ela vasculha uma caixa em que está escrito “Nova York”. É aí que começam as perguntas. Por que Hopper foi embora de Hawkins anos atrás? Por que nunca contou sobre Nova York? O que ele está escondendo?
+                        
+                        Embora prefira enfrentar uma horda de demogorgons a mergulhar em seu passado, Hopper sabe que não pode mais esconder a verdade. Por isso, ele conta a Eleven os detalhes de um dos casos mais avassaladores de sua carreira, o último antes de tudo mudar...
+                        
+                        Em 1977, após retornar da Guerra do Vietnã, ele se muda com a esposa e a filha para Nova York e passa a atuar na divisão de homicídios. A cada dia, se depara com inúmeras tragédias, mas nenhuma se compara a uma série de assassinatos brutais e incompreensíveis. Quando agentes federais assumem o caso, Hopper e sua irreverente parceira, Rosario Delgado, decidem agir por conta própria, e logo o detetive se vê infiltrado entre as perigosas gangues da cidade. No momento em que está prestes a desvendar quem — ou o quê — está por trás dos assassinatos, um apagão lança a cidade nas trevas, e Hopper fica frente a frente com uma escuridão que mudará sua vida para sempre.
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div> 
@@ -130,10 +210,38 @@
               <img src="img/livros/oclubedocrime.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">O clube do crime das quintas-feiras</h5>
-                <p class="card-text">Autor: Markus Zusak<br>
-                  Nº de páginas: 584<br>
-                  Editora: Intríseca</p>
-                <a href="#" class="btn btn-primary">Ver mais...</a>
+                <p class="card-text">Autor: Richard Osman<br>
+                  Nº de páginas: 418<br>
+                  Editora: Intríseca<br>
+                  Minha nota: 10/10 </p>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                  Ver mais...
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">Sinopse</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Fenômeno editorial que o mundo não via desde o lançamento de Harry Potter, O Clube do Crime das Quintas-Feiras é um exemplo concreto de como uma história de mistério e assassinato pode ser extremamente engraçada.
+
+                        Toda quinta, em um retiro para aposentados no sudeste da Inglaterra, quatro idosos se reúnem para ― segundo consta na agenda da sala de reunião ― discutir ópera japonesa. Mas não é bem isso que acontece ali dentro. Elizabeth, Ibrahim, Joyce e Ron usam o horário para debater casos policiais antigos sem solução, confiantes de que podem trazer justiça às vítimas e encontrar os responsáveis por algumas daquelas atrocidades do passado.
+                        
+                        Com todos os integrantes acima dos setenta anos, o Clube do Crime das Quintas-Feiras não é a equipe de detetives mais convencional em que se conseguiria pensar, mas com certeza está mais do que acostumada a fortes emoções. Afinal, Joyce foi enfermeira por décadas, Ibrahim ajudou pacientes psiquiátricos em situações dificílimas, Ron era um reconhecido líder sindical e Elizabeth... bom, digamos que assassinatos e redes de contatos sigilosas não eram nenhuma novidade para ela.
+                        
+                        Quando um empreiteiro local com projetos bastante questionáveis na cidade aparece morto, o grupo tem a oportunidade de seguir as pistas de um caso atual. Apostando em seus semblantes inocentes e habilidades investigativas estranhamente eficazes ― além de trocas de favores clandestinas com a polícia, que, apesar de todos os esforços, parece estar sempre um passo atrás de seus colegas amadores ―, os quatro amigos embarcam em uma aventura na qual as mortes do presente se entrelaçam com antigos segredos, e em que saber demais pode trazer consequências perigosas.
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -142,10 +250,32 @@
               <img src="img/livros/opequenoprincipe.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">O pequeno príncipe</h5>
-                <p class="card-text">Autor: Markus Zusak<br>
-                  Nº de páginas: 584<br>
-                  Editora: Intríseca</p>
-                <a href="#" class="btn btn-primary">Ver mais...</a>
+                <p class="card-text">Autor: Antoine de Saint-Exupéry<br>
+                  Nº de páginas: 105<br>
+                  Editora: HarperCollins<br>
+                  Minha nota: 09/10 </p>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                  Ver mais...
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">Sinopse</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Nesta clássica história que marcou gerações de leitores em todo o mundo, um piloto cai com seu avião no deserto do Saara e encontra um pequeno príncipe, que o leva a uma jornada filosófica e poética através de planetas que encerram a solidão humana. A edição conta com a clássica tradução do poeta imortal dom Marcos Barbosa, e é a versão mais consagrada da obra, publicada no Brasil desde 1952.
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -154,10 +284,32 @@
               <img src="img/livros/assasinatonoexpressodooriente.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Assasinato no expresso do oriente</h5>
-                <p class="card-text">Autor: Markus Zusak<br>
-                  Nº de páginas: 584<br>
-                  Editora: Intríseca</p>
-                <a href="#" class="btn btn-primary">Ver mais...</a>
+                <p class="card-text">Autor: Agatha Christie<br>
+                  Nº de páginas: 204<br>
+                  Editora: HarperCollins<br>
+                  Minha nota: 10/10 </p>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                  Ver mais...
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">Sinopse</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        É perto da meia-noite quando a neve acumulada sobre os trilhos interrompe a jornada do Expresso Oriente, o mais famoso e luxuoso trem de passageiros do mundo, que liga a Ásia à Europa. A bordo, milionários, aristocratas, empregados - e um assassino. Porém, no mesmo vagão encontra-se ninguém menos que Hercule Poirot. Caberá ao meticuloso detetive investigar todos os passageiros e descobrir a identidade do ousado criminoso. Christie propõe um fascinante enredo nos moldes do clássico subgênero do 'locked room' ('mistério do quarto fechado'), em que o crime ocorre num local isolado, e a suspeita recai sobre todos os presentes.
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -172,10 +324,32 @@
               <img src="img/livros/osobrinhodomago.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">O Sobrinho do mago</h5>
-                <p class="card-text">Autor: Markus Zusak<br>
-                  Nº de páginas: 584<br>
-                  Editora: Intríseca</p>
-                <a href="#" class="btn btn-primary">Ver mais...</a>
+                <p class="card-text">Autor: C. S. Lewis<br>
+                  Nº de páginas: 184<br>
+                  Editora: Martins Fontes<br>
+                  Minha nota: 10/10 </p>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                  Ver mais...
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">Sinopse</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        A aventura começa quando Digory e Polly vão parar no gabinete secreto do excêntrico tio André. Ludibriada por ele, Polly toca o anel mágico e desaparece. Digory, aterrorizado, decide partir imediatamente em busca da amiga no Outro Mundo. Lá ele encontra Polly e, juntos, ouvem Aslam cantar sua canção ao criar o mundo encantado de Nárnia, repleto de sol, árvores, flores, relva e animais.
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -184,22 +358,67 @@
               <img src="img/livros/oleaoafeiticeiraeoguardaroupa.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">O Leão, a feiticeira e o guardaroupa</h5>
-                <p class="card-text">Autor: Markus Zusak<br>
-                  Nº de páginas: 584<br>
-                  Editora: Intríseca</p>
-                <a href="#" class="btn btn-primary">Ver mais...</a>
+                <p class="card-text">Autor: C. S. Lewis<br>
+                  Nº de páginas: 180<br>
+                  Editora: Martins Fontes<br>
+                  Minha nota: 10/10 </p>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                  Ver mais...
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">Sinopse</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        'Dizem que Aslam está a caminho. Talvez já tenha chegado', sussurrou o Castor. Edmundo experimentou uma misteriosa sensação de horror. Pedro sentiu-se valente e vigoroso. Para Susana, foi como se uma música deliciosa tivesse enchido o ar. E Lúcia teve aquele mesmo sentimento que nos desperta a chegada do verão. Assim, no coração da terra encantada de Nárnia, as crianças lançaram-se na mais excitante e mágica aventura que alguém já escreveu.
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
           <div class="col-md-4">
             <div class="card" style="width: 18rem;">
-              <img src="img/livros/indisponivel.jpg" class="card-img-top" alt="...">
+              <img src="img/livros/percyjackson.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">loren ipsun</h5>
-                <p class="card-text">Autor: Markus Zusak<br>
-                  Nº de páginas: 584<br>
-                  Editora: Intríseca</p>
-                <a href="#" class="btn btn-primary">Ver mais...</a>
+                <h5 class="card-title">Percy Jackson vol.1</h5>
+                <p class="card-text">Autor:  Rick Riordan<br>
+                  Nº de páginas: 321<br>
+                  Editora: Intríseca<br>
+                  Minha nota: 10/10 </p>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                  Ver mais...
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">Sinopse</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Os cinco livros da série que se tornou fenômeno mundial, em edição limitada e com design exclusivo: as cinco lombadas dos livros compõem, juntas, uma ilustração especial de John Rocco.
+                        Em O ladrão de raios, Percy Jackson, o menino que aos doze anos descobre que é um semideus, filho de Poseidon, precisa impedir uma guerra entre os deuses que destruiria a civilização ocidental; em O Mar de Monstros, ele e os amigos se envolvem em uma perigosa aventura para defender o acampamento dos semideuses; em A maldição do titã, Percy descobre que o Senhor dos Titãs despertou e está disposto a destruir a humanidade; em A batalha do Labirinto, o semideus vai combater o perigoso titã no temido Labirinto de Dédalo; e em O último olimpiano, Percy tem que lidar não só com o exército de Cronos, mas também com a chegada de seu décimo sexto aniversário — e, assim, com a profecia que determinará seu destino.
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -215,7 +434,25 @@
     </div>
 
     <br>
-
+    
+    <div class="fundoblack" id="lista">
+      <br>
+      <section>
+        <div class="row">
+          <h1 class="tituloazul">Minha Lista de livros na amazon!</h1>
+        </div>
+        <div class="row">
+          <div class="col-md-2"></div>
+          <div class="col-md-4"><img src="img/amazon.png" class="posicaoamazon" alt=""></div>
+          <div class="col-md-4">
+            <p> <a href="https://www.amazon.com.br/hz/wishlist/ls/BI6XNEFKWFJC?ref_=wl_share">Clicando aqui</a>, você tem acesso a minha lista de desejos da Amazon, onde você pode me presentear com algum daqueles livros...</p>
+            <p>PS: Não precisa ser dessa lista para me presentear não, ein?</p>
+          </div>
+          <div class="col-md-2"></div>
+        </div>
+        <br>
+      </section>
+    </div>
       
     <br>
 
@@ -260,10 +497,9 @@
     <br>
   </div>
 
-  <footer class="navbar-expand-lg navbar-ligth bg-warning">
+  <footer class="navbar-expand-lg navbar-ligth bg-dark final">
     <h5 class="tituloazul">created by Nicolas Costa</h5>
-    <h5 class="tituloazul">2021</h5>
-    <a class="logofooter" href="index.html"><img src="img/logo/logoempng.png" alt=""></a>
+    <h5 class="tituloazul">2022</h5>
   </footer>
 
 
@@ -274,6 +510,5 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script> -->
-
   </body>
 </html>

@@ -30,6 +30,9 @@ text-align: justify;}
 {font-family:'lemon';
 font-size: 150%;
 color: blue;}
+
+.nav-link
+{color: #FB6107;}
 /* ------fim_das_configuracoes_nav------ */
 
 
@@ -57,7 +60,7 @@ text-align: justify;}
 flex-direction: column;  
 align-items: center;
 text-align: center;    
-background-color: #F2F0E9;
+background-color: #B79FAD;
 border-radius: 30px;}
 
 .fundovermelho
@@ -65,7 +68,7 @@ border-radius: 30px;}
 flex-direction: column;  
 align-items: center;
 text-align: center;    
-background-color: #D93611;
+background-color: #FFA552;
 border-radius: 30px;}
 
 .fundoazul
@@ -83,19 +86,29 @@ align-items: center;
 text-align: center;    
 background-color: #F2CF63;
 border-radius: 30px;}
+
+.fundoblack
+{display: flex;
+flex-direction: column;  
+align-items: center;
+text-align: center;    
+background-color: black;
+color: #fff;
+border-radius: 30px;}
 /* ------fim_dos_fundos_coloridos------ */
 
-
+.posicaoamazon
+{margin-top: 24px;}
 
 /* ------letras_coloridas------ */
 .titulocinza
 {color: #dad4bf ;}
 
 .titulovermelho
-{color: #D93611;}
+{color: #653a94;}
 
 .tituloazul 
-{color:#0420BF ;}
+{color:#FB6107 ;}
 
 .tituloamarelo
 {color:#F2CF63 ;}
@@ -159,3 +172,4 @@ footer {
 
 .borda
 {border-radius: 30px;}
+
